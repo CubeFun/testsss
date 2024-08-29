@@ -2,7 +2,7 @@
 
 echo "Welcome to YT2009 Setup the installer is currently setting up..."
 
-echo "sleep 5 ; "Upgrading, and installing needed packages... (git, nodejs, imagemagick, ffmpeg"
+echo "sleep 5 ; "Upgrading, and installing needed packages... (git, nodejs, imagemagick, ffmpeg)"
 yes "" | pkg update -y && pkg upgrade -y && pkg install git -y && pkg install nodejs -y && pkg install imagemagick -y && pkg install ffmpeg -y
 
 echo "Installing YT2009 from the official repo"
